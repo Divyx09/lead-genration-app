@@ -11,11 +11,11 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# Uploaded files (keep the folder structure but ignore contents)
-uploads/*
-!uploads/.gitkeep
-!uploads/projects/.gitkeep
-!uploads/clients/.gitkeep
+# Uploaded files - Allow seeded images, ignore user uploads
+uploads/projects/project-*.jpg
+uploads/projects/project-*.png
+uploads/clients/client-*.jpg
+uploads/clients/client-*.png
 
 # Logs
 logs/

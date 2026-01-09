@@ -1,0 +1,6 @@
+# Ignore user-uploaded files but allow seeded images
+project-*.jpg
+project-*.png
+project-*.jpeg
+project-*.gif
+

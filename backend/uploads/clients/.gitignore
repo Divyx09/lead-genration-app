@@ -1,0 +1,5 @@
+# Ignore user-uploaded files but allow seeded images
+client-*.jpg
+client-*.png
+client-*.jpeg
+client-*.gif
